@@ -26,7 +26,7 @@ public class MergeTwoSortedArray {
 			
 		}
 		
-		for(Integer k:b)
+		for(Integer k:a )
 		{
 			System.out.println(k);
 		}
@@ -38,11 +38,32 @@ public class MergeTwoSortedArray {
 	
 	public static void main(String[] args) {
 		
-		int a[]= {1,4,7,8,10};
-		int b[]= {2,3,9};
+		int a[]= {20};
+		int b[]= {2, 3};
 		
 		//sort using insertion sort method
-		sortUsingInsertionSortMethod(a,b);
+		//sortUsingInsertionSortMethod(a,b);
+		
+		//approach 2 by using gap method
+		sortUsingGapMethod(a,b);
+		
+		
+	}
+
+
+//https://www.youtube.com/watch?v=hVl2b3bLzBw&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=8
+
+
+	private static void sortUsingGapMethod(int[] a, int[] b) {
+		
+		//Gap Algorithm
+		double gap=Math.ceil((a.length+b.length)/2);
+		while(gap>1)
+		{
+			
+		}
+		
+		
 		
 	}
 
