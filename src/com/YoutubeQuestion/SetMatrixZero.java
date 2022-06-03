@@ -18,15 +18,32 @@ public class SetMatrixZero {
 
 	private static void setZero(List<String> a) {
 		
-		int res[][]=new int[a.size()][];
+		Character res[][]=new Character[a.size()][a.get(0).length()];
 		
 		
 		for(int i=0;i<res.length;i++)
-		{
+		{	
 			for(int j=0;j<res[i].length;j++)
 			{
-				res[i][j]=a.get(i).charAt(0);
+				for(int k=0;k<;i++)
+				{
+					String s=a.get(k);
+					char c=s.charAt(k);
+					res[i][j]=c;
+				}
+				
+				
 			}
+		}
+		
+		for(int i=0;i<res.length;i++)
+		{	
+			for(int j=0;j<res[i].length;j++)
+			{
+				System.out.print(res[i][j]);
+				
+			}
+			System.out.println("\n");
 		}
 		
 		

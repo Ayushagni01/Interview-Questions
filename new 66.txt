@@ -11,7 +11,14 @@ which i am not able to solve
 5.FindTheRepeatedandMax				N		  Not able to understand
 6.Mergetwo Array in o(1)           Y
 7.MergingIntervals                still not able to complete will neeed to see the answer of this quewstiosn
-tata@123
+Set Metrix zeros                  still not able to complete that 
+
+
+
+linked list question which needs to complete 
+
+
+Stack and Queue Questions
 
 
 101420764194
