@@ -1,0 +1,27 @@
+https://www.youtube.com/watch?v=dRUpbt8vHpo&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=2
+
+
+
+which i am not able to solve 
+
+1.reversepair         				N
+2.GridUniquePath	  				N
+3.Sort012             				Y	       But by Using space complexity(Understand)
+4.FindTheDuplicateElement			N		  Not Able to understand
+5.FindTheRepeatedandMax				N		  Not able to understand
+6.Mergetwo Array in o(1)           Y
+7.MergingIntervals                still not able to complete will neeed to see the answer of this quewstiosn
+tata@123
+
+
+101420764194
+
+
+Tata@1234
+
+
+Degree Certificate Completed
+Marksheet Done 
+
+very important coding sequence
+https://www.youtube.com/watch?v=QlaDyZTCAbM
