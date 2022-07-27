@@ -2,7 +2,6 @@ package com.java8.program;
 import java.util.*;
 import java.util.stream.Collectors;
 
-import jdk.javadoc.internal.doclets.toolkit.util.Comparators;
 public class EmployeeQues {
 
 	public static void main(String[] args) {
