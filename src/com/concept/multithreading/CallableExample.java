@@ -40,6 +40,8 @@ public class CallableExample {
 		Future<Integer> f=s.submit(new Callab());
 		System.out.println(f.get());
 		
+		
+
 	}
 
 }
