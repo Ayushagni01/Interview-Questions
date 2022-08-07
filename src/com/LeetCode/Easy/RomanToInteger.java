@@ -5,7 +5,7 @@ public class RomanToInteger {
 
 	public static void main(String[] args) {
 
-		String s="MCMXCIV";		
+		String s="III";		
 		System.out.print(RomanToInteger.romanToInt(s));
 	}
 	 public static int romanToInt(String s) {
@@ -20,21 +20,21 @@ public class RomanToInteger {
 	        aa.put('M',1000);
 	        int result=0;
 	        char c;
-	        for(int i=0;i<s.length();i++)
+	        for(int i=0;i<s.length()-1;i++)
 	        {
 	            c=s.charAt(i);
-	            if(c=='I'){result=result+aa.get(c);}
-	            if(c=='V'){result=result+aa.get(c);}
-	            if(c=='X'){result=result+aa.get(c);}
-	            if(c=='L'){result=result+aa.get(c);}
-	            if(c=='C'){result=result+aa.get(c);}
-	            if(c=='D'){result=result+aa.get(c);}
-	            if(c=='M'){result=result+aa.get(c);}
-	            
-	            
-	        }
-	        return result;
+	            if(aa.get(c)<=aa.get(s.charAt(i+1)))
+	            {
+	            	result=result+Math.abs(aa.get(c)-aa.get(s.charAt(i+1)));
+	            	i=i+1;
+	            }else {
+	            result=result+aa.get(c);    
+	        
+	            }
+	        
 	        
 	        
 	    }
+	        return result;
+}
 }
