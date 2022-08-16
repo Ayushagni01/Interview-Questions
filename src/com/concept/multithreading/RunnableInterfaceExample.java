@@ -1,4 +1,4 @@
-package com.concept.Thread;
+package com.concept.multithreading;
 
 public class RunnableInterfaceExample   implements Runnable {
 	

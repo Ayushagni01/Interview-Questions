@@ -1,4 +1,4 @@
-package com.java8.concept;
+package com.java8.program;
 
 import java.util.stream.IntStream;
 import java.util.stream.Stream;

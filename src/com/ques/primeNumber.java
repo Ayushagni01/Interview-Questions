@@ -34,6 +34,7 @@ public class primeNumber {
 			flag=numberIsPrime(a[i]);
 			if(flag)
 			{
+			//	System.out.println(a[i]);
 				c++;
 			}
 		}

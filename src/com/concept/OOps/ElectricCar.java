@@ -7,10 +7,10 @@ public void A(String  a) {
 		 System.out.println("most Generic class");
 	 }
 	 
-	 public void A(Integer a) {
-		 
-		 System.out.println("most Generic class");
-	 }
+//	 public void A(Integer a) {
+//		 
+//		 System.out.println("most Generic class");
+//	 }
 	 
 	 public void A(Object a)
 	 {

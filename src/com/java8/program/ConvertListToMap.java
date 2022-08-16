@@ -1,4 +1,4 @@
-package com.java8.concept;
+package com.java8.program;
 import java.util.*;
 import java.util.stream.Collectors;
 public class ConvertListToMap {
