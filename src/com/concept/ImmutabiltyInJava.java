@@ -1,4 +1,4 @@
-package com.JavaConcept;
+package com.concept;
 import java.util.*;
 
 
