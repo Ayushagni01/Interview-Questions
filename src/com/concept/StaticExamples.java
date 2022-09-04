@@ -1,10 +1,13 @@
 package com.concept;
 
-public class StaticExamples {
-public static void main(String[] args) {
-	
 
+public class StaticExamples {
+
+public static  String a="ayush";
+	
+	
 }	
 	
 
 }
+//static ke ander bas stati
