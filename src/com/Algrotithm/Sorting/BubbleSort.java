@@ -13,10 +13,6 @@ public class BubbleSort {
 
 	private static void BubbleSortAlgorithm(int[] a) {
 		
-		for(int i=0;i<a.length;i++)
-		{
-			
-		}
 		
 		
 		

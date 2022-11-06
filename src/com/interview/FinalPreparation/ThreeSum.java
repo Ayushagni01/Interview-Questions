@@ -6,14 +6,9 @@ public class ThreeSum {
 		
 		int a[]= {12,3,4,1,6,9};
 		int target=24;
-		//System.out.println(complexityon3(a, target));
-		System.out.println(complexityon2(a, target));	
+		System.out.println(complexityon3(a, target));
 		}
 
-	private static String  complexityon2(int[] a, int target) {
-		
-	return null;
-	}
 	
 	private static String  complexityon3(int[] a, int target) {
 		String s="ayush";

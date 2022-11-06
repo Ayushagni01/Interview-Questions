@@ -6,7 +6,8 @@ public class TwoSum {
 
 	//Date 29/07/2022
 	//two sum coding questions
-	
+	 
+	//o(n) approached
 	public static void main(String[] args) {
 		
 		int a[] = {3,2,4};
@@ -22,7 +23,7 @@ public class TwoSum {
 			 int temp=target-a[i];
 			 if(aset.contains(temp))
 			 {
-			
+			System.out.println(temp+" "+a[i]);
 				 
 				 
 				 

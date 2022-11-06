@@ -10,14 +10,14 @@ public class AnagramPrograms {
 		String s="anagram";
 		String d="nagaram";
 		
-		System.out.println(sortTheArrays(s));
-		System.out.println(sortSecondMethod(s, d));
+		System.out.println(sortTheArrays(s,d));
+	
 		
 		
 		
 	}
 
-	private static boolean sortTheArrays(String s) {
+	private static boolean sortTheArrays(String s,String d) {
 		char c1[]=s.toCharArray();
 		char c2[]=s.toCharArray();
 		

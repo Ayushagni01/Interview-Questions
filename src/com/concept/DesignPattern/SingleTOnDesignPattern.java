@@ -28,6 +28,8 @@ public class SingleTOnDesignPattern {
 	public static void main(String[] args) {
 		SingleTonD d=SingleTonD.getInstance();
 		d.demoOfSingleTonObject();
+		SingleTonD d1=SingleTonD.getInstance();
+		
 	}
 	
 	
